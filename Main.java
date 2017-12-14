@@ -7,6 +7,10 @@ import java.util.Map;
 
 public class Main {
 	
+	/**
+	 * Method solution check all of elements from list if are "palindrome". 
+	 * If element is palindrome it puts the element to the map with array where are multipliers.
+	 */
 	public static String solution(ArrayList<Integer> list) {
 		
 		Map<Long, int[]> map = new HashMap<>();
@@ -43,6 +47,9 @@ public class Main {
 		 							var[1];
 }	
 
+	/**
+	 * Check if a number is palindrome.
+	 */
 	public static boolean isPalindrome(String s){
 		int n = s.length();
 		for (int i = 0; i < (n / 2); ++i) {
@@ -54,7 +61,9 @@ public class Main {
 	}
 
 
-	
+	/**
+	 * This method uses isPrime method and if a number is prime then adds it to the list.
+	 */
 	public static void primeList(ArrayList<Integer> list){
 		for(int i = 10000; i <= 99999; i++){
 			if(isPrime(i)){
@@ -63,6 +72,9 @@ public class Main {
 		}
 	}
 	
+	/**
+	 * Check if a number is prime.
+	 */
 	public static boolean isPrime(int n) {
 	    for (int i = 2; i <= n / 2; i++)   {
 	        if (n % i == 0) {
