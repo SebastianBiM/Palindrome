@@ -10,6 +10,7 @@ public class Main {
 	/**
 	 * Method solution check all of elements from list if are "palindrome". 
 	 * If element is palindrome it puts the element to the map with array where are multipliers.
+	 * Then returns the largest number-palindrome, which is the product of two prime five-digit numbers and returns the multipliers.
 	 */
 	public static String solution(ArrayList<Integer> list) {
 		
