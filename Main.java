@@ -56,7 +56,7 @@ public class Main {
 
 	
 	public static void primeList(ArrayList<Integer> list){
-		for(int i = 1000; i <= 9999; i++){
+		for(int i = 10000; i <= 99999; i++){
 			if(isPrime(i)){
 				list.add(i);
 			}
